@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Factorial Calculator</h1>
+        <input id="number" type="number" placeholder="Enter a number" min="0">
+        <br>
+        <button class="button" onclick="calculateFactorial('iterative')">Iterative Method</button>
+        <button class="button" onclick="calculateFactorial('recursive')">Recursive Method</button>
+        <div id="output" class="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
